@@ -1,0 +1,3 @@
+﻿  lab1.c
+C:\Users\KORISNIK\source\repos\labovi\labovi\lab1.c(47,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  labovi.vcxproj -> C:\Users\KORISNIK\source\repos\labovi\Debug\labovi.exe
