@@ -1,0 +1,12 @@
+﻿  Source.c
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(52,26): warning C4047: '=': 'Position' differs in levels of indirection from 'Position (__cdecl *)()'
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(214,24): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(216,21): warning C4133: 'function': incompatible types - from 'char [9]' to 'FILE *const '
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(216,36): warning C4047: 'function': 'const char *const ' differs in levels of indirection from 'char'
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(216,33): warning C4024: 'fscanf': different types for formal and actual parameter 2
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(221,11): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(221,11): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'int'
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(202,7): warning C4101: 'name': unreferenced local variable
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(250,13): warning C4047: 'return': 'Position' differs in levels of indirection from 'int'
+C:\Users\KORISNIK\source\repos\Project3\Project3\Source.c(300,14): warning C4013: 'tolower' undefined; assuming extern returning int
+  Project3.vcxproj -> C:\Users\KORISNIK\source\repos\Project3\Debug\Project3.exe
