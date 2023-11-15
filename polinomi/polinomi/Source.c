@@ -25,6 +25,8 @@ Position createElement(coefficient, exponent);
 int insertAfter(Position current, Position newElement);
 int deleteAfter(Position prev);
 int printPoly(char* polynomeName, Position first);
+int AddPoly(Position firstElementPoly1, Position firstElementPoly2, Position resultHead);
+int multiplyPoly(Position firstElementPoly1, Position firstElementPoly2, Position resultHead);
 int main()
 {
 	Element headPoly1 = { .coefficient = 0, .exponent = 0, .next = NULL };
@@ -37,6 +39,10 @@ int main()
 	if (readFile(&headPoly1, &headPoly2, fileName) == EXIT_SUCCESS)
 	{
 		printPoly("First polynome: ", headPoly1.next);
+		printPoly("\nSecond polynome: ", headPoly2.next);
+
+		AddPoly(headPoly1.next, headPoly2.next, &headPolyAdd);
+		multiplyPoly(headPoly1.next, headPoly2.next, &headPolyAdd);
 
 
 
@@ -239,29 +245,44 @@ int printPoly(char* polynomeName, Position first)
 
 	return EXIT_SUCCESS;
 }
+int AddPoly(Position firstElementPoly1, Position firstElementPoly2, Position resultHead)
+{
+	Position currentPoly1 = firstElementPoly1;
+	Position currentPoly2 = firstElementPoly2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	for (; currentPoly1 != NULL; currentPoly1 = currentPoly1->next)
+	{
+		Position newElement = createElement(currentPoly1->coefficient, currentPoly1->exponent);
+		if (!newElement)
+		{
+			return EXIT_FAILURE;
+		}
+		insertSorted(resultHead, newElement);
+	}
+	for (; currentPoly1 != NULL; currentPoly2 = currentPoly1->next)
+	{
+		Position newElement = createElement(currentPoly2->coefficient, currentPoly2->exponent);
+		if (!newElement)
+		{
+			return EXIT_FAILURE;
+		}
+		insertSorted(resultHead, newElement);
+	}
+	return EXIT_SUCCESS;
+}
+int multiplyPoly(Position firstElementPoly1, Position firstElementPoly2, Position resultHead)
+{
+	if (firstElementPoly1 == NULL && firstElementPoly2 == NULL)
+		return EMPTY_LISTS;
+	for (Position currentPoly1 = firstElementPoly1; currentPoly1 != NULL; currentPoly1 = currentPoly1->next)
+	{
+		for (Position currentPoly2 = firstElementPoly2; currentPoly2 != NULL; currentPoly2 = currentPoly2->next)
+		{
+			Position newElement = createElement(currentPoly1->coefficient * currentPoly2->coefficient, currentPoly1->exponent + currentPoly2->exponent);
+			if (!newElement)
+				return EXIT_FAILURE;
+			insertSorted(resultHead, newElement);
+		}
+	}
+	return EXIT_SUCCESS;
+}
