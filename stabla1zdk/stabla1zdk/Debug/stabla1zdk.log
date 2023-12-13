@@ -1,0 +1,4 @@
+﻿  zzdk7.c
+C:\Users\KORISNIK\source\repos\stabla1zdk\stabla1zdk\zzdk7.c(158,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\KORISNIK\source\repos\stabla1zdk\stabla1zdk\zzdk7.c(163): warning C4715: 'push': not all control paths return a value
+  stabla1zdk.vcxproj -> C:\Users\KORISNIK\source\repos\stabla1zdk\Debug\stabla1zdk.exe
