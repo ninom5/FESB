@@ -52,7 +52,7 @@ int main()
 		printf("5 - exit\n");
 
 		int num = 0;
-		scanf("%d", &num);
+		scanf(" %d", &num);
 
 		switch (num)
 		{
@@ -60,7 +60,7 @@ int main()
 		{
 			char dirName[MAX_NAME_LENGTH];
 			printf("Enter directory name\n");
-			scanf("%s", dirName);
+			scanf(" %s", dirName);
 			createSubDirectory(dirName, currentDir);
 		}
 		case 2:

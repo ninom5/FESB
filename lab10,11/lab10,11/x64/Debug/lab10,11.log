@@ -1,0 +1,32 @@
+﻿  lab10_11.c
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(48,20): warning C4013: 'readAndFillCountries' undefined; assuming extern returning int
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(48,18): warning C4047: '=': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(52,17): error C2040: 'readAndFillCountries': 'PositionCountry (PositionCountry,PositionCountry)' differs in levels of indirection from 'int ()'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(61,18): error C2374: 'countries': redefinition; multiple initialization
+  C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(57,18):
+  see declaration of 'countries'
+  
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(68,3): warning C4047: 'return': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(73,10): warning C4133: 'function': incompatible types - from 'char [6]' to 'FILE *const '
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(74,3): warning C4013: 'CreateNewCountry' undefined; assuming extern returning int
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(78,3): warning C4013: 'insertSortedNewCountryList' undefined; assuming extern returning int
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(79,21): warning C4013: 'insertNewCountryTree' undefined; assuming extern returning int
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(79,19): warning C4047: '=': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(84,17): error C2040: 'CreateNewCountry': 'PositionCountry (char *,char *,PositionCountry *)' differs in levels of indirection from 'int ()'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(101,3): warning C4047: 'return': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(104,19): warning C4013: 'createCountry' undefined; assuming extern returning int
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(104,17): warning C4047: '=': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(105,17): warning C4047: '=': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(111,17): warning C4013: 'createNewTown' undefined; assuming extern returning int
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(111,15): warning C4047: '=': 'PositionTown' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(112,15): warning C4047: '=': 'PositionTown' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(113,3): warning C4013: 'insertSortedTownList' undefined; assuming extern returning int
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(114,34): warning C4013: 'insertNewTownTree' undefined; assuming extern returning int
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(114,32): warning C4047: '=': 'PositionTown' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(126,17): error C2040: 'createCountry': 'PositionCountry (char *)' differs in levels of indirection from 'int ()'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(150,14): error C2040: 'createNewTown': 'PositionTown (char *,int)' differs in levels of indirection from 'int ()'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(176,2): warning C4013: 'insertTownAfter' undefined; assuming extern returning int
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(187,14): error C2040: 'insertNewTownTree': 'PositionTown (PositionTown,PositionTown)' differs in levels of indirection from 'int ()'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(193,22): warning C4047: '=': 'PositionTown' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(195,23): warning C4047: '=': 'PositionTown' differs in levels of indirection from 'int'
+C:\Users\Korisnik\source\repos\lab10,11\lab10,11\lab10_11.c(206,2): warning C4013: 'insertCountryAfter' undefined; assuming extern returning int

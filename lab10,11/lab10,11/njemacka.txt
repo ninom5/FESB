@@ -1,0 +1,4 @@
+Munchen 1353186
+Hamburg 1786448
+Berlin 3460725
+Koln 1007119
