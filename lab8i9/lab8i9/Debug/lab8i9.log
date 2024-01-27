@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\KORISNIK\source\repos\lab8i9\lab8i9\Source.c(30,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\KORISNIK\source\repos\lab8i9\lab8i9\Source.c(189,9): warning C4033: 'levelOrder' must return a value
+C:\Users\KORISNIK\source\repos\lab8i9\lab8i9\Source.c(208): warning C4715: 'levelOrder': not all control paths return a value
